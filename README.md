@@ -12,7 +12,7 @@ This code is primarily written in Python 3.7 using Pytorch but with additional d
 
 ```
 pip install http://imagine.enpc.fr/~langloip/data/pymesh2-0.2.1-cp37-cp37m-linux_x86_64.whl
-``
+```
 
 4. Setup respective dataset, ground truth directories in local_config.py. Please follow the instructions in the comments provided.
 
@@ -27,7 +27,7 @@ We provide the template data including pre-computed basis function, nodes, etc i
 
 ```
 python lit_train_MLS.py --exp_name test --id 1 --pe_enc --cd_w_volp --cd_w_arap
-``
+```
 
 Please refer to arguments in utils/argument_parsers.py for more details.
 
@@ -54,22 +54,13 @@ python lit_train_MLS.py --exp_name test --id 1 --pe_enc --cd_w_volp --cd_w_arap 
 If you find this code useful, please cite our paper,
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2211.14604,
-  doi = {10.48550/ARXIV.2211.14604},
-  
-  url = {https://arxiv.org/abs/2211.14604},
-  
-  author = {Sundararaman, Ramana and Marin, Riccardo and Rodola, Emanuele and Ovsjanikov, Maks},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Graphics (cs.GR)},
-  
-  title = {Reduced Representation of Deformation Fields for Effective Non-rigid Shape Matching},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+
+@article{Sundararaman2022DeformBasis,
+  title={Reduced Representation of Deformation Fields for Effective Non-rigid Shape Matching},
+  author={Sundararaman, Ramana and Marin, Riccardo and Rodola, Emanuele and Ovsjanikov, Maks},
+  year={2022},
+  journal={Advances in Neural Information Processing Systems},
+ 	volume={35},
 }
 
 ```
