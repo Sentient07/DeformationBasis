@@ -1,0 +1,5 @@
+Logs/*
+__pycache__/*
+utils/__pycache__/*
+models/__pycache__/*
+dataset/__pycache__/*
