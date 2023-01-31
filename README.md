@@ -36,12 +36,17 @@ Please refer to arguments in utils/argument_parsers.py for more details.
 Once trained use `--only_test` and `--model` arguments to restore the model and evaluate it, e.g.,
 
 ```
-python lit_train_MLS.py --exp_name test --id 1 --pe_enc --cd_w_volp --cd_w_arap --only_test --model ./checkpoints/test/1/epoch=9.ckpt
+python lit_train_MLS.py --exp_name test --id 1 --pe_enc --cd_w_volp --cd_w_arap --only_test --model /path/to/checkpoint.ckpt
 ```
+
+
+## Pretrained models
+
+Pre-trained models used in our quantitative experiments can be found here: https://nuage.lix.polytechnique.fr/index.php/s/oP2zBQy7ScHRxN6 
 
 ## :hourglass_flowing_sand: Coming Soon...
 
-- [ ] Pre-trained weights to reproduce.
+- [x] Pre-trained weights to reproduce.
 
 - [ ] Dataset used in all our experiments.
 
