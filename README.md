@@ -50,7 +50,7 @@ Pre-trained models used in our quantitative experiments can be found here: https
 
 - [ ] Dataset used in all our experiments.
 
-- [ ] Pre-processing code to obtain basis function $`\Phi`$, its gradient, etc..
+- [x] Pre-processing code to obtain basis function $`\Phi`$, its gradient, etc.. (Check `batched_mls_function.py`) 
 
 - [ ] Code for shape interpolation.
 
